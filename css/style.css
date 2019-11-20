@@ -1,0 +1,48 @@
+body{
+ font-family: "Times New Roman" times, serif;
+}
+.kalkulator{
+ width: 360px;
+ background: none;
+ margin: 130px auto;
+ padding: 10px 20px 60px 20px;
+ border-radius: 8px;
+}
+
+.number{
+ width: 330px;
+ margin: 5px;
+ border: none;
+ font-size: 16pt;
+ border-radius: 5px;
+ padding: 10px;
+}
+
+.option{
+ font-size: 20pt;
+ width: 70px;
+ margin: 5px;
+ border: 20px;
+ border-radius: 5px;
+ padding: 10px;
+}
+
+.tombol{
+ width: 120px;  
+ background: crimson;
+ border-top: 2px solid white;
+ border-left: 2px solid white;
+ border-right: 2px solid white;
+ margin-left: 13px;
+ border-radius: 10px;
+ padding: 12px 0px;
+ font-size: 25px;
+ color: #fff;
+ border-bottom: 2px solid white;
+}
+
+h1{
+ text-align: center;
+ font-family: sans-serif;
+ color: #000;
+}
