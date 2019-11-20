@@ -24,8 +24,12 @@
   <head>
   <meta charset="utf-8">
 
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="font awesome/css/all.css">
   <title>Aritmatika</title>
+
   <link href="css/style.css" rel="stylesheet" type="text/css">
+
 
  <body background="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS2tl2lgn_UZTcH9-eTfn0_xceOORDUNCCgDevirq5siRSpUS5r">
  <div class="kalkulator">
@@ -49,11 +53,29 @@
   <?php } ?>
 </div>
 
-<script type="text/javascript">
-    function eraseText() {
-     document.getElementById("number").value = "";
-	}
-</script>
+<footer>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-12">
+            <p>&copy; copyright 2019 | build with <i class="fas fa-heart"></i> by. <a href="https://www.instagram.com/_asla23/">_asla23</a>.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <a href="https://www.youtube.com/channel/UClLOGXVLg__ZSjtHkVmFQGQ/videos?view_as=subscriber" class="btn btn-danger"><i class=" fas fa-play"></i> Subscribe to Youtube</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+	    function eraseText() {
+	    	document.getElementById("number").value = "";
+		}
+    </script>
 
  </body>
 
